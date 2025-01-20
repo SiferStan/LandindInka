@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Fondo blanco -->
+  <rect width="100%" height="100%" fill="#FFFFFF" />
+
+  <!-- Gráfico semicircular con flecha -->
+  <path d="M400 400 m-150 0 a150 150 0 1 1 150 -150" fill="none" stroke="#00BCD4" stroke-width="40" />
+  <path d="M400 250 l-30 -60 l30 20 l30 -20 z" fill="#00BCD4" transform="rotate(45, 400, 400)" />
+
+  <!-- Conexiones y líneas decorativas -->
+  <path d="M400 250 C450 200, 500 200, 550 250" fill="none" stroke="#000" stroke-width="2" />
+  <path d="M550 250 L580 200" fill="none" stroke="#000" stroke-width="2" />
+  <path d="M550 320 L580 370" fill="none" stroke="#000" stroke-width="2" />
+  <path d="M550 390 L580 440" fill="none" stroke="#000" stroke-width="2" />
+
+  <!-- Círculos con íconos -->
+  <circle cx="600" cy="250" r="50" fill="#00BCD4" />
+  <circle cx="600" cy="350" r="50" fill="#00BCD4" />
+  <circle cx="600" cy="450" r="50" fill="#00BCD4" />
+  <circle cx="600" cy="550" r="50" fill="#00BCD4" />
+
+  <!-- Íconos dentro de los círculos -->
+  <!-- Ícono 1 -->
+  <path d="M590 230 h20 v40 h-20 z" fill="none" stroke="#000" stroke-width="3" />
+  <path d="M590 250 l10 -10 l10 10" fill="none" stroke="#000" stroke-width="3" />
+
+  <!-- Ícono 2 -->
+  <path d="M590 330 h20 v10 h-20 z" fill="none" stroke="#000" stroke-width="3" />
+  <circle cx="600" cy="360" r="8" fill="none" stroke="#000" stroke-width="3" />
+
+  <!-- Ícono 3 -->
+  <path d="M590 440 l10 -20 l10 20 z" fill="none" stroke="#000" stroke-width="3" />
+  <rect x="590" y="440" width="20" height="10" fill="none" stroke="#000" stroke-width="3" />
+
+  <!-- Ícono 4 -->
+  <path d="M590 530 h20 v20 h-20 z" fill="none" stroke="#000" stroke-width="3" />
+  <path d="M600 530 v20" fill="none" stroke="#000" stroke-width="3" />
+
+  <!-- Líneas decorativas entre los círculos -->
+  <line x1="600" y1="300" x2="600" y2="350" stroke="#000" stroke-width="2" />
+  <line x1="600" y1="400" x2="600" y2="450" stroke="#000" stroke-width="2" />
+  <line x1="600" y1="500" x2="600" y2="550" stroke="#000" stroke-width="2" />
+</svg>
